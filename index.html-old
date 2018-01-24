@@ -1,0 +1,65 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ABM Password Manager</title>
+<link href="style.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+<body>
+
+<div id="cssBody">
+	<div><img src="ABMLogo.png"></div>
+    <div class="cssBoldText"><p>Select one of the following options to be directed to the ABM site for the respected process:</p></div>
+    
+    <a href="https://account.activedirectory.windowsazure.com/ChangePassword.aspx?portalUrl=https%3a%2f%2faccount.activedirectory.windowsazure.com%2fProfile%2fDefault.aspx" target="_blank">
+	<div class="cssContainer">
+    	<div class="cssIconBox">
+        	<img src="lock.png" alt="" title="">
+            <div class="cssHeader">Change Password</div>
+        </div>
+        <ul>
+       		<li>Use to change password before or after the password has expired</li>
+            <li class="cssGray">Must have old password</li>
+        </ul>
+    </div>
+    </a>
+    
+    <a href="https://passwordreset.microsoftonline.com/?whr=abm.com" target="_blank">
+   	<div class="cssContainer">
+    	<div class="cssIconBox">
+        	<img src="phone.png" alt="" title="">
+            <div class="cssHeader">Forgot Password</div>
+        </div>
+        <ul>
+       		<li>Use to change forgotten password</li>
+            <li>Use with any device connected to the internet</li>
+            <li>Use to unlock a locked account</li>
+       		<li class="cssGray">Must have username</li>
+            <li class="cssGray">Must have access to the mobile phone or office phone associated with the account</li>
+        </ul>
+    </div>
+    </a>
+    
+    <a href="https://account.activedirectory.windowsazure.com/PasswordReset/Register.aspx?returl=https%3a%2f%2faccount.activedirectory.windowsazure.com%2fProfile%2fDefault.aspx" target="_blank">
+    <div class="cssContainer">
+    	<div class="cssIconBox">
+        	<img src="id.png" alt="" title="">
+            <div class="cssHeader">Registration</div>
+        </div>
+        <ul>
+       		<li>Use to setup a different mobile or office phone other than the one associated with the account for a future forgot password process</li>
+       		<li class="cssGray">Must have username and password</li>
+            <li class="cssGray">Must have access to a mobile phone or email not associated with the account</li>
+        </ul>
+    </div>
+    </a>
+    
+    <div class="cssFooter">
+        <div class="cssHeader" style="margin-bottom:7px;">Disclaimer</div>
+        <div class="cssGray">Forgot Password is currently a pilot service globally across ABM.  There will be continued enhancements made to the solution, therefore you may see changes to the associated sites and the Forgot Password solution.</div>
+    </div>
+    
+</div>
+
+</body>
+</html>
